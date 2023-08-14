@@ -1,0 +1,38 @@
+.title {
+    position: absolute;
+    top:-20px;
+    left:25%;
+    transform: translateX(-50%);
+    color:white; 
+    font-size:90px;  
+    text-align: left;
+}
+
+.image1 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.image2{
+    position:absolute;
+    bottom :30px;
+    right :30px;
+}
+
+
+/* Your existing CSS styles */
+
+.quote-container {
+   
+    text-align: center;
+    max-width: 800px; /* 원하는 최대 가로 너비로 조절 */
+    margin: 200px auto 0;
+    padding: 20px; /* 위아래 패딩을 추가해서 컨테이너 내부 여백을 설정 */
+}
+
+.quote {
+    max-width: 80%;
+    font-size: 58px;
+    color:white;
+}

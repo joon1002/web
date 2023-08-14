@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Love Luck</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="money.js"></script>
+</head>
+
+<body style="background-image:url('./image/luckbackground2.png')"
+width = "1920" height="1080">
+
+<h1 class="title">월 일 금전운은..</h1>
+
+<script>
+    const title = document.querySelector('.title');
+    const today = new Date();
+    const month = today.getMonth() + 1; // JavaScript의 월은 0부터 시작하므로 1을 더해줍니다.
+    const day = today.getDate();
+
+    title.textContent = `${month}월 ${day}일 금전운은...`;
+</script>
+
+<div class="quote-container">
+    <p class="quote" id="randomQuote"></p>
+</div>
+
+<img src="./image/mini.png" class="image1" >
+<img src="./image/lpenguin.png" class="image2">
+
+
+
+
+</body>
+</html>
